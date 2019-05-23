@@ -126,3 +126,25 @@
 #
 #print(f"Your down payment is $" + format(down_payment,",.2f") + " dollars.")
 
+#------ Logical Operators ------
+
+# Operators are used when mulutiple conditions are used
+
+#if applicate has high income AND good credit
+    #eligible for loan
+
+#has_high_income = False
+#has_good_credit = True
+#has_criminal_record = False
+
+#if has_high_income and has_good_credit:
+#if has_high_income or has_good_credit:
+#    print("Eligible for loan")
+#else:
+#    print("Not eligible for loan. Sorry.")
+
+#if has_good_credit and not has_criminal_record:
+#if not has_good_credit and not has_criminal_record:
+#    print("Eligible for loan")
+#else:
+#    print("Not eligible for loan. Sorry.")
