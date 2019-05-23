@@ -40,7 +40,7 @@
 
 
 #------ String Methods -------
-course = 'Python for beginners'
+#course = 'Python for beginners'
 #len() - length of string, number of items in a list
 #when a function belongs to somethignn else, or is specific to a type of object, that function is called a method
 
