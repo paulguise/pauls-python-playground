@@ -85,9 +85,43 @@
 #------ Math Functions -------
 #is you want to do complext mathematical function, inport the math module 
 #https://docs.python.org/3.4/library/math.html
-import math
-x = 2.9
-print(round(x)) #rounds up or down
-print(abs(-2.9)) #absolute always retusn a positive number
-print(math.ceil(2.9))
-print(math.floor(2.9))
+#import math
+#x = 2.9
+#print(round(x)) #rounds up or down
+#print(abs(-2.9)) #absolute always retusn a positive number
+#print(math.ceil(2.9))
+#print(math.floor(2.9))
+
+#-------- If Statements -------------
+#example of psuedo coding 
+
+#    if its hot
+#        its a hor dynamic   drink plenty of water
+#    otherwise if its cold
+#        its a cold day
+#        wear warm clothes
+#    otherwise  
+#         its a lovely day
+
+is_hot = False
+is_cold = False
+
+if is_hot:
+    print("It's hot outside.")
+    print("Drink plenty of water.")
+elif is_cold:
+    print("It's a cold day")
+    print("Wear warm clothes.")
+else:
+    print("It's a lovely day.")
+print("Enjoy your day.") #not tabbed/indented statement will end an IF statement
+
+
+good_credit = False
+house_price = 1000000
+if good_credit:
+    down_payment = house_price * 0.10
+else:
+    down_payment = house_price * 0.20
+
+print(f"Your down payment is $" + format(down_payment,",.2f") + " dollars.")
