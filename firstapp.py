@@ -125,3 +125,4 @@
 #    down_payment = house_price * 0.20
 #
 #print(f"Your down payment is $" + format(down_payment,",.2f") + " dollars.")
+
